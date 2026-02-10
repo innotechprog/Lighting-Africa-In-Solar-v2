@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# PHP
+vendor/
+.env
+.env.local
+*.cache

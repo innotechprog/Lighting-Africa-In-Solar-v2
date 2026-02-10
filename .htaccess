@@ -1,0 +1,8 @@
+# Redirect 404s to 404.php (optional; uncomment if you want catch-all)
+# RewriteEngine On
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^(.*)$ 404.php [L,QSA]
+
+# Default document
+DirectoryIndex index.php index.html
