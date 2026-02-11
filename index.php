@@ -18,11 +18,11 @@ require_once __DIR__ . '/includes/header.php';
                     <?php echo htmlspecialchars(t('home_hero_subtitle')); ?>
                 </p>
                 <div class="flex flex-wrap gap-4">
-                    <a href="products.php" class="inline-flex items-center justify-center rounded-md text-sm font-semibold h-11 px-8 bg-gradient-solar text-primary-foreground hover:opacity-90 shadow-solar">
+                    <a href="products" class="inline-flex items-center justify-center rounded-md text-sm font-semibold h-11 px-8 bg-gradient-solar text-primary-foreground hover:opacity-90 shadow-solar">
                         <?php echo htmlspecialchars(t('home_hero_btn_products')); ?>
                         <svg class="ml-2 h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                     </a>
-                    <a href="quote.php" class="inline-flex items-center justify-center rounded-md text-sm font-medium h-11 px-8 border border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                    <a href="quote" class="inline-flex items-center justify-center rounded-md text-sm font-medium h-11 px-8 border border-primary text-primary hover:bg-primary hover:text-primary-foreground">
                         <?php echo htmlspecialchars(t('home_hero_btn_quote')); ?>
                     </a>
                 </div>
@@ -75,7 +75,7 @@ require_once __DIR__ . '/includes/header.php';
                 <?php endforeach; ?>
             </div>
             <div class="text-center mt-10">
-                <a href="products.php" class="inline-flex items-center justify-center rounded-md text-sm font-semibold h-10 px-4 bg-gradient-solar text-primary-foreground hover:opacity-90">
+                <a href="products" class="inline-flex items-center justify-center rounded-md text-sm font-semibold h-10 px-4 bg-gradient-solar text-primary-foreground hover:opacity-90">
                     <?php echo htmlspecialchars(t('home_products_btn_view_all')); ?>
                     <svg class="ml-2 h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </a>
@@ -104,7 +104,7 @@ require_once __DIR__ . '/includes/header.php';
                 <?php endforeach; ?>
             </div>
             <div class="text-center mt-10">
-                <a href="services.php" class="inline-flex items-center justify-center rounded-md text-sm font-semibold h-10 px-4 bg-gradient-solar text-primary-foreground hover:opacity-90">
+                <a href="services" class="inline-flex items-center justify-center rounded-md text-sm font-semibold h-10 px-4 bg-gradient-solar text-primary-foreground hover:opacity-90">
                     <?php echo htmlspecialchars(t('home_services_btn_view_all')); ?>
                     <svg class="ml-2 h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </a>
@@ -121,10 +121,10 @@ require_once __DIR__ . '/includes/header.php';
                 <?php echo htmlspecialchars(t('home_cta_text')); ?>
             </p>
             <div class="flex flex-wrap justify-center gap-4">
-                <a href="quote.php" class="inline-flex items-center justify-center rounded-md text-sm font-semibold h-11 px-8 bg-gradient-solar text-primary-foreground hover:opacity-90 shadow-solar">
+                <a href="quote" class="inline-flex items-center justify-center rounded-md text-sm font-semibold h-11 px-8 bg-gradient-solar text-primary-foreground hover:opacity-90 shadow-solar">
                     <?php echo htmlspecialchars(t('home_cta_btn_quote')); ?>
                 </a>
-                <a href="contact.php" class="inline-flex items-center justify-center rounded-md text-sm font-medium h-11 px-8 border border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                <a href="contact" class="inline-flex items-center justify-center rounded-md text-sm font-medium h-11 px-8 border border-primary text-primary hover:bg-primary hover:text-primary-foreground">
                     <?php echo htmlspecialchars(t('home_cta_btn_contact')); ?>
                 </a>
             </div>

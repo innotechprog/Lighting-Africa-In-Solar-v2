@@ -13,19 +13,19 @@
             <div>
                 <h4 class="font-heading font-semibold text-foreground mb-3"><?php echo htmlspecialchars(t('footer_quick_links')); ?></h4>
                 <div class="flex flex-col gap-2 text-sm">
-                    <a href="products.php" class="text-muted-foreground hover:text-primary transition-colors"><?php echo htmlspecialchars(t('footer_products')); ?></a>
-                    <a href="services.php" class="text-muted-foreground hover:text-primary transition-colors"><?php echo htmlspecialchars(t('footer_services')); ?></a>
-                    <a href="how-solar-works.php" class="text-muted-foreground hover:text-primary transition-colors"><?php echo htmlspecialchars(t('footer_how_solar_works')); ?></a>
-                    <a href="quote.php" class="text-muted-foreground hover:text-primary transition-colors"><?php echo htmlspecialchars(t('footer_request_quote')); ?></a>
+                    <a href="products" class="text-muted-foreground hover:text-primary transition-colors"><?php echo htmlspecialchars(t('footer_products')); ?></a>
+                    <a href="services" class="text-muted-foreground hover:text-primary transition-colors"><?php echo htmlspecialchars(t('footer_services')); ?></a>
+                    <a href="how-solar-works" class="text-muted-foreground hover:text-primary transition-colors"><?php echo htmlspecialchars(t('footer_how_solar_works')); ?></a>
+                    <a href="quote" class="text-muted-foreground hover:text-primary transition-colors"><?php echo htmlspecialchars(t('footer_request_quote')); ?></a>
                 </div>
             </div>
             <div>
                 <h4 class="font-heading font-semibold text-foreground mb-3"><?php echo htmlspecialchars(t('footer_policies')); ?></h4>
                 <div class="flex flex-col gap-2 text-sm">
-                    <a href="policies.php" class="text-muted-foreground hover:text-primary transition-colors"><?php echo htmlspecialchars(t('footer_shipping_policy')); ?></a>
-                    <a href="policies.php" class="text-muted-foreground hover:text-primary transition-colors"><?php echo htmlspecialchars(t('footer_returns_policy')); ?></a>
-                    <a href="policies.php" class="text-muted-foreground hover:text-primary transition-colors"><?php echo htmlspecialchars(t('footer_privacy_policy')); ?></a>
-                    <a href="policies.php" class="text-muted-foreground hover:text-primary transition-colors"><?php echo htmlspecialchars(t('footer_terms')); ?></a>
+                    <a href="policies" class="text-muted-foreground hover:text-primary transition-colors"><?php echo htmlspecialchars(t('footer_shipping_policy')); ?></a>
+                    <a href="policies" class="text-muted-foreground hover:text-primary transition-colors"><?php echo htmlspecialchars(t('footer_returns_policy')); ?></a>
+                    <a href="policies" class="text-muted-foreground hover:text-primary transition-colors"><?php echo htmlspecialchars(t('footer_privacy_policy')); ?></a>
+                    <a href="policies" class="text-muted-foreground hover:text-primary transition-colors"><?php echo htmlspecialchars(t('footer_terms')); ?></a>
                 </div>
             </div>
             <div>
@@ -37,8 +37,14 @@
                 </div>
             </div>
         </div>
-        <div class="border-t border-border mt-8 pt-6 text-center text-sm text-muted-foreground">
-            &copy; <?php echo date('Y'); ?> Lighting Africa In Solar. All rights reserved.
+        <div class="border-t border-border mt-8 pt-6 text-center text-sm text-muted-foreground space-y-1">
+            <p>&copy; <?php echo date('Y'); ?> Lighting Africa In Solar. All rights reserved.</p>
+            <p class="text-xs text-muted-foreground/80">
+                Website developed by
+                <a href="https://ib-innovativesolutions.com/it-solutions" target="_blank" rel="noopener noreferrer" class="no-underline hover:text-primary">
+                    IB Innovative Solutions
+                </a>.
+            </p>
         </div>
     </div>
 </footer>

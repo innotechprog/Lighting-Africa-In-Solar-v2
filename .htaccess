@@ -1,8 +1,12 @@
-# Redirect 404s to 404.php (optional; uncomment if you want catch-all)
-# RewriteEngine On
-# RewriteCond %{REQUEST_FILENAME} !-f
-# RewriteCond %{REQUEST_FILENAME} !-d
-# RewriteRule ^(.*)$ 404.php [L,QSA]
+RewriteEngine On
+
+# Serve existing files and directories as-is
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Clean URLs: /about -> /about.php, /products -> /products.php, etc.
+RewriteRule ^([A-Za-z0-9\-_]+)/?$ $1.php [L,QSA]
 
 # Default document
 DirectoryIndex index.php index.html

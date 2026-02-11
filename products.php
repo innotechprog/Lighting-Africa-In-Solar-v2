@@ -75,7 +75,7 @@ $products = [
                             <li class="text-sm text-muted-foreground flex items-center gap-2"><span class="h-1.5 w-1.5 rounded-full bg-primary shrink-0"></span> <?php echo htmlspecialchars($s); ?></li>
                             <?php endforeach; ?>
                         </ul>
-                        <a href="quote.php" class="inline-flex items-center justify-center rounded-md border border-primary text-primary bg-transparent h-10 px-4 py-2 w-full hover:bg-primary hover:text-primary-foreground text-sm font-medium">
+                        <a href="quote" class="inline-flex items-center justify-center rounded-md border border-primary text-primary bg-transparent h-10 px-4 py-2 w-full hover:bg-primary hover:text-primary-foreground text-sm font-medium">
                             <?php echo htmlspecialchars(t('products_btn_request_quote')); ?>
                             <svg class="ml-2 h-4 w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                         </a>
